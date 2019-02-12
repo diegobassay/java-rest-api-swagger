@@ -19,7 +19,7 @@ mvn clean install
 
 
 ## Para criar o banco de dados
-Não é necessário criar banco de dados, o JPA foi configurado para fazer o drop e o create cada vez que houve deploy do aplicativo, é obrigatório ter um datasource com o nome "ExampleDS" com drive H2 que vem por default no Wildfly no arquivo "standalone.xml" dentro da pasta "standalone/configuration":
+Não é necessário criar banco de dados, o JPA foi configurado para fazer o drop e o create cada vez que houver deploy do aplicativo, é obrigatório ter um datasource com o nome "ExampleDS" com drive H2 que vem por default no Wildfly no arquivo "standalone.xml" dentro da pasta "standalone/configuration":
 ```
                 <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
                     <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
