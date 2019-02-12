@@ -1,7 +1,7 @@
 # java-rest-api-swagger
 Projeto REST usando a entidade shopping
 
-Aplicativo com as funcionalidades CRUD implememtadas com Java 7/8, usando JUnit 5, Mockito, JAX-RS, JPA, H2 Database, Jacoco Coverage e Swagger.
+Aplicativo com as funcionalidades CRUD implementadas com Java 7/8, usando JUnit 5, Mockito, JAX-RS, JPA, H2 Database, Jacoco Coverage e Swagger.
 
 ## Pré-requisitos
 
